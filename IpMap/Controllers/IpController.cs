@@ -26,8 +26,8 @@ namespace IpMap.Controllers
         public async Task<IpDataModel> Get()
         {
             IpDataModel data = new IpDataModel();
-            //string ip = Request.HttpContext.Connection.RemoteIpAddress.ToString();
-            string ip = "92.208.162.222";
+            string ip = Request.HttpContext.Connection.RemoteIpAddress.ToString();
+            /*string ip = "92.208.162.222";*/
             data.IP = ip;
             string apiKey = configuration.GetSection("ipdata").Value;
             string url = "https://api.ipdata.co/" + ip + "?api-key=" + apiKey;
