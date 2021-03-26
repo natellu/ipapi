@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "IpMap/1.0.0": {
         "dependencies": {
+          "IpData": "2.0.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -319,6 +320,31 @@
         },
         "compile": {
           "IpMap.dll": {}
+        }
+      },
+      "IpData/2.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IpData.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IpData.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2020,6 +2046,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "IpData/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HCJxcRn+3dIp9inXcE2Nojuk8kYs0fanQDbFhKvn+MdeCaScPKPn+3YWFuZRTxhnpdYB4tob990oDUEE3IAKIg==",
+      "path": "ipdata/2.0.1",
+      "hashPath": "ipdata.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

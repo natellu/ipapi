@@ -20,6 +20,7 @@
     "IpMap": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "ip",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

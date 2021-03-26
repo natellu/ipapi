@@ -18,3 +18,6 @@ C:\Users\natellu\source\repos\IpMap\IpMap\obj\Debug\netcoreapp3.1\IpMap.RazorTar
 C:\Users\natellu\source\repos\IpMap\IpMap\obj\Debug\netcoreapp3.1\IpMap.dll
 C:\Users\natellu\source\repos\IpMap\IpMap\obj\Debug\netcoreapp3.1\IpMap.pdb
 C:\Users\natellu\source\repos\IpMap\IpMap\obj\Debug\netcoreapp3.1\IpMap.genruntimeconfig.cache
+C:\Users\natellu\source\repos\IpMap\IpMap\bin\Debug\netcoreapp3.1\IpData.dll
+C:\Users\natellu\source\repos\IpMap\IpMap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\natellu\source\repos\IpMap\IpMap\obj\Debug\netcoreapp3.1\IpMap.csproj.CopyComplete

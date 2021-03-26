@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JgWx/92XifmSL2SxC9/PhfNUT6nHfQhhrJ/wbeT5OXK5rJlqDBVLUxibovd+3o8n+lASIoJ9ZUAnu0vNkTaT9g==",
+  "dgSpecHash": "q/IbAGE21bDN+6pPoTg/mZs2py0DpiEhsR9k99JSLy19Zdtf5+gANGwJHRqCPtxXg0mmBTdL+1oBrG+VOkPYXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\natellu\\source\\repos\\IpMap\\IpMap\\IpMap.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\natellu\\.nuget\\packages\\ipdata\\2.0.1\\ipdata.2.0.1.nupkg.sha512",
+    "C:\\Users\\natellu\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
